@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.result{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;   
+}

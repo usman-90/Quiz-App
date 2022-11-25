@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class 17</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-dark">
+    <div class="container">
+      <div class="m-2">
+        <h1 class="p-2 text-center text-light border-bottom border-success">
+          Quiz APP
+        </h1>
+      </div>
+    </div>
+
+    <div class="mt-5">
+      <p class="text-light fs-3 text-center">
+        Question No <span class="qn text-light fs-2"></span>/
+        <span class="text-light fs-4 qn"></span>
+      </p>
+    </div>
+
+    <div class="">
+      <p
+        id="dispques"
+        class="text-center text-light fs-5 p-3 bg-success mx-auto w-75"
+      >
+        Question...
+      </p>
+    </div>
+    <div  class="container">
+      <div id="options" class="row mt-2">
+       
+    </div>
+    <div id="result" class="result">
+        <div class="p-5 d-flex flex-column justify-content-evenly align-items-center bg-success text-light  rounded">
+        <p class="">Score: <span id="showscore"> </span></p>
+        <p class="">Percentage: <span id="showpr"></span> </p>
+        <p class="">Status: <span id="showstatus"></span> </p>
+    </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
